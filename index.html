@@ -125,23 +125,13 @@
         }
 
         ul {
-            list-style: none;
             margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
         }
 
         li {
             color: var(--text-muted);
             margin-bottom: 0.75rem;
-            padding-left: 1.5rem;
-            position: relative;
-        }
-
-        li::before {
-            content: '•';
-            color: var(--accent-color);
-            position: absolute;
-            left: 0;
-            font-weight: bold;
         }
 
         a {
@@ -211,6 +201,19 @@
             transform: translateY(-2px);
         }
 
+        .highlight-box {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+        }
+
+        .highlight-box p {
+            color: #78350f;
+            margin: 0;
+        }
+
         footer {
             margin-top: 4rem;
             text-align: center;
@@ -259,81 +262,132 @@
             <span class="app-badge">PocketDoc</span>
         </header>
 
-        <p><strong>Beyond The Limit Studio</strong> built the <strong>PocketDoc</strong> app as an Ad-Supported app.
+        <p><strong>Beyond The Limit Studio</strong> built the <strong>PocketDoc</strong> app as an Ad-Supported
+            application.
             This SERVICE is provided by Beyond The Limit Studio at no cost and is intended for use as is.</p>
 
-        <p>This page informs visitors regarding our policies with the collection, use, and disclosure of Personal
-            Information if anyone decides to use our Service.</p>
+        <p>This Privacy Policy describes how we collect, use, and handle your information when you use our mobile
+            application.</p>
 
-        <p>If you choose to use our Service, then you agree to the collection and use of information in relation to this
-            policy. The Personal Information that we collect is used for providing and improving the Service. We will
-            not use or share your information with anyone except as described in this Privacy Policy.</p>
+        <p>By using our Service, you agree to the collection and use of information in accordance with this policy. If
+            you do not agree with our policies and practices, please do not use our Service.</p>
 
-        <h2>Information Collection & Use</h2>
-        <p>For a better experience while using our Service, we may require you to provide us with certain personally
-            identifiable information. The information that we request will be retained on your device and is not
-            collected by us in any way, except for data typically collected by third-party services.</p>
+        <h2>Information We Collect</h2>
 
-        <h3>App Permissions</h3>
-        <p>PocketDoc requires the following permissions to function proactively:</p>
+        <h3>Information You Provide</h3>
+        <p>PocketDoc is designed to work locally on your device. We do not collect, store, or transmit any of your
+            documents, images, or PDF files to our servers. All document processing happens entirely on your device.</p>
+
+        <h3>Device Permissions</h3>
+        <p>To provide our services, PocketDoc requests the following permissions:</p>
 
         <div class="card-grid">
             <div class="permission-card">
-                <span class="permission-title">📸 Camera</span>
-                Used strictly for the Document Scanner feature to capture images of documents. All processing happens
-                locally on your device.
+                <span class="permission-title">📸 Camera Access</span>
+                Required for the Document Scanner feature to capture photos of documents. Images are processed locally
+                and never uploaded to external servers.
             </div>
             <div class="permission-card">
-                <span class="permission-title">💾 Storage</span>
-                Used to save generated PDF files, read images for conversion, and manage documents created within the
-                app. Your files remain private.
+                <span class="permission-title">💾 Storage Access</span>
+                Required to save PDF files you create, read images for conversion, and manage your documents. All files
+                remain stored locally on your device.
             </div>
         </div>
 
-        <h3>Third Party Services</h3>
-        <p>The app uses third-party services that may collect information used to identify you, such as device
-            identifiers and usage diagnostics.</p>
+        <h3>Automatically Collected Information</h3>
+        <p>Our third-party service providers may automatically collect certain information about your device and app
+            usage:</p>
+        <ul>
+            <li>Device information (model, operating system version, unique device identifiers)</li>
+            <li>App usage data (features used, session duration, crash reports)</li>
+            <li>Advertising identifiers for personalized ads</li>
+            <li>IP address and general location (city/country level)</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>PocketDoc integrates the following third-party services that may collect and process data:</p>
 
         <div class="services-list">
-            <a href="https://www.google.com/policies/privacy/" target="_blank" class="service-tag">Google Play
-                Services</a>
-            <a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank"
+            <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer"
+                class="service-tag">Google Play Services</a>
+            <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer"
                 class="service-tag">AdMob</a>
-            <a href="https://firebase.google.com/policies/analytics" target="_blank" class="service-tag">Firebase
-                Analytics</a>
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer"
+                class="service-tag">Firebase Analytics</a>
         </div>
 
-        <h2>Log Data & Cookies</h2>
-        <p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and
-            information (through third-party products) on your phone called Log Data. This may include your device IP
-            address, device name, OS version, app configuration, and usage time/date.</p>
+        <p><strong>AdMob (Advertising):</strong> We use Google AdMob to display advertisements. AdMob may collect device
+            identifiers, IP addresses, and usage data to serve personalized ads. You can opt out of personalized
+            advertising by adjusting your device settings (Google Ad Settings on Android).</p>
 
-        <p>This Service does not use "cookies" explicitly. However, the app may use third-party code and libraries that
-            use cookies to collect information and improve their services. You have the option to either accept or
-            refuse these cookies.</p>
+        <p><strong>Firebase Analytics:</strong> We use Firebase Analytics to understand how users interact with our app,
+            identify crashes, and improve performance. This service collects anonymous usage statistics and device
+            information.</p>
 
-        <h2>Security</h2>
-        <p>We value your trust in providing us your Personal Information, thus we are striving to use commercially
-            acceptable means of protecting it. But remember that no method of transmission over the internet, or method
-            of electronic storage is 100% secure and reliable.</p>
+        <div class="highlight-box">
+            <p><strong>Important:</strong> These third-party services have their own privacy policies. We encourage you
+                to review them using the links above.</p>
+        </div>
 
-        <h2>Links to Other Sites</h2>
-        <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to
-            that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to
-            review the Privacy Policy of these websites.</p>
+        <h2>How We Use Information</h2>
+        <p>The information collected by third-party services is used to:</p>
+        <ul>
+            <li>Provide and maintain our Service</li>
+            <li>Improve app functionality and user experience</li>
+            <li>Analyze app usage and performance</li>
+            <li>Display relevant advertisements</li>
+            <li>Detect and prevent technical issues</li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <p>Since we do not collect or store your personal documents, there is no data retention on our end. Data
+            collected by third-party services (AdMob, Firebase) is retained according to their respective policies,
+            typically:</p>
+        <ul>
+            <li>Analytics data: Up to 14 months</li>
+            <li>Advertising data: Varies based on user settings and legal requirements</li>
+        </ul>
+
+        <h2>Your Rights and Choices</h2>
+        <p>You have the following rights regarding your information:</p>
+        <ul>
+            <li><strong>Opt-out of Personalized Ads:</strong> Visit your device's ad settings (Settings → Google → Ads →
+                Opt out of Ads Personalization)</li>
+            <li><strong>Limit Data Collection:</strong> Disable analytics in your device settings or uninstall the app
+            </li>
+            <li><strong>Delete Data:</strong> Uninstalling the app removes all locally stored data. For third-party
+                data, contact the respective service providers</li>
+        </ul>
+
+        <h2>Data Security</h2>
+        <p>We take the security of your information seriously. All document processing occurs locally on your device
+            using industry-standard security practices. However, please remember that no method of electronic storage or
+            transmission over the internet is 100% secure.</p>
 
         <h2>Children's Privacy</h2>
-        <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable
-            information from children under 13. If we discover that a child under 13 has provided us with personal
-            information, we immediately delete this from our servers.</p>
+        <p>PocketDoc does not knowingly collect personal information from children under 13 years of age. If we discover
+            that a child under 13 has provided us with personal information, we will immediately delete it. If you are a
+            parent or guardian and believe your child has provided us with personal information, please contact us.</p>
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically
-            for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <h2>International Data Transfers</h2>
+        <p>Your information may be transferred to and processed in countries other than your own. These countries may
+            have different data protection laws. By using our Service, you consent to such transfers.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new
+            Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy
+            Policy periodically for any changes.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please
+            contact us:</p>
+        <p><strong>Email:</strong> support@beyondthelimitstudio.com</p>
+        <p><strong>Developer:</strong> Beyond The Limit Studio</p>
 
         <footer>
-            <p>Effective as of 2026-01-10</p>
-            <p>Questions or suggestions?</p>
+            <p><strong>Last Updated:</strong> January 10, 2026</p>
+            <p><strong>Effective Date:</strong> January 10, 2026</p>
+            <br>
             <a href="mailto:support@beyondthelimitstudio.com" class="email-link">Contact Support</a>
             <br><br>
             <p>&copy; 2026 Beyond The Limit Studio. All rights reserved.</p>
