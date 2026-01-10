@@ -1,1 +1,0 @@
-# Pocket-Doc-privacy-policy
