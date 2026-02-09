@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +18,11 @@
             --accent-color: #0ea5e9;
             --border-color: #e2e8f0;
         }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Outfit', sans-serif;
             background-color: var(--bg-color);
@@ -40,7 +37,6 @@
             align-items: center;
             padding: 2rem 1rem;
         }
-
         .container {
             max-width: 900px;
             width: 100%;
@@ -51,26 +47,22 @@
             box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
             animation: fadeIn 0.8s ease-out;
         }
-
         @keyframes fadeIn {
             from {
                 opacity: 0;
                 transform: translateY(20px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
         header {
             text-align: center;
             margin-bottom: 3rem;
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 2rem;
         }
-
         h1 {
             font-size: 3rem;
             font-weight: 700;
@@ -80,7 +72,6 @@
             -webkit-text-fill-color: transparent;
             display: inline-block;
         }
-
         .app-badge {
             display: inline-block;
             background: rgba(14, 165, 233, 0.1);
@@ -92,7 +83,6 @@
             border: 1px solid rgba(14, 165, 233, 0.2);
             font-weight: 600;
         }
-
         h2 {
             font-size: 1.5rem;
             color: #0f172a;
@@ -101,7 +91,6 @@
             display: flex;
             align-items: center;
         }
-
         h2::before {
             content: '';
             display: inline-block;
@@ -111,29 +100,24 @@
             margin-right: 12px;
             border-radius: 4px;
         }
-
         h3 {
             font-size: 1.2rem;
             color: #334155;
             margin-top: 1.5rem;
             margin-bottom: 0.75rem;
         }
-
         p {
             color: var(--text-muted);
             margin-bottom: 1.2rem;
         }
-
         ul {
             margin-bottom: 1.5rem;
             padding-left: 1.5rem;
         }
-
         li {
             color: var(--text-muted);
             margin-bottom: 0.75rem;
         }
-
         a {
             color: var(--accent-color);
             text-decoration: none;
@@ -142,19 +126,16 @@
             border-bottom: 1px dashed transparent;
             font-weight: 600;
         }
-
         a:hover {
             color: #0284c7;
             border-bottom-color: #0284c7;
         }
-
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
             margin: 2rem 0;
         }
-
         .permission-card {
             background: #f8fafc;
             padding: 1.5rem;
@@ -162,27 +143,23 @@
             border: 1px solid var(--border-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
         }
-
         .permission-card:hover {
             transform: translateY(-5px);
             background: #ffffff;
             border-color: var(--accent-color);
             box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
         }
-
         .permission-title {
             color: #0f172a;
             font-weight: 700;
             margin-bottom: 0.5rem;
             display: block;
         }
-
         .services-list {
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
         }
-
         .service-tag {
             background: #f0f9ff;
             color: #0284c7;
@@ -193,14 +170,12 @@
             border: 1px solid #bae6fd;
             font-weight: 500;
         }
-
         .service-tag:hover {
             background: #0ea5e9;
             color: white;
             border-color: #0ea5e9;
             transform: translateY(-2px);
         }
-
         .highlight-box {
             background: #fef3c7;
             border-left: 4px solid #f59e0b;
@@ -208,12 +183,10 @@
             margin: 1.5rem 0;
             border-radius: 8px;
         }
-
         .highlight-box p {
             color: #78350f;
             margin: 0;
         }
-
         footer {
             margin-top: 4rem;
             text-align: center;
@@ -222,7 +195,6 @@
             color: var(--text-muted);
             font-size: 0.9rem;
         }
-
         .email-link {
             display: inline-block;
             margin-top: 0.5rem;
@@ -233,7 +205,6 @@
             font-weight: 600;
             border: none;
         }
-
         .email-link:hover {
             opacity: 0.9;
             color: white;
@@ -241,19 +212,16 @@
             transform: translateY(-2px);
             box-shadow: 0 10px 20px -10px rgba(37, 99, 235, 0.4);
         }
-
         @media (max-width: 600px) {
             .container {
                 padding: 1.5rem;
             }
-
             h1 {
                 font-size: 2.5rem;
             }
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <header>
@@ -261,26 +229,19 @@
             <br>
             <span class="app-badge">OneDocs</span>
         </header>
-
-        <p><strong>Beyond The Limit Studio</strong> built the <strong>OneDocs</strong> app as an Ad-Supported
-            application.
-            This SERVICE is provided by Beyond The Limit Studio at no cost and is intended for use as is.</p>
-
+        <p><strong>Beyond The Limit Studio</strong> built the <strong>OneDocs</strong> app as a Freemium
+            application with both free (ad-supported) and premium features available through in-app purchases.
+            The basic SERVICE is provided by Beyond The Limit Studio at no cost and is intended for use as is.</p>
         <p>This Privacy Policy describes how we collect, use, and handle your information when you use our mobile
             application.</p>
-
         <p>By using our Service, you agree to the collection and use of information in accordance with this policy. If
             you do not agree with our policies and practices, please do not use our Service.</p>
-
         <h2>Information We Collect</h2>
-
         <h3>Information You Provide</h3>
         <p>OneDocs is designed to work locally on your device. We do not collect, store, or transmit any of your
             documents, images, or PDF files to our servers. All document processing happens entirely on your device.</p>
-
         <h3>Device Permissions</h3>
         <p>To provide our services, OneDocs requests the following permissions:</p>
-
         <div class="card-grid">
             <div class="permission-card">
                 <span class="permission-title">📸 Camera Access</span>
@@ -293,7 +254,6 @@
                 remain stored locally on your device.
             </div>
         </div>
-
         <h3>Automatically Collected Information</h3>
         <p>Our third-party service providers may automatically collect certain information about your device and app
             usage:</p>
@@ -303,10 +263,8 @@
             <li>Advertising identifiers for personalized ads</li>
             <li>IP address and general location (city/country level)</li>
         </ul>
-
         <h2>Third-Party Services</h2>
         <p>OneDocs integrates the following third-party services that may collect and process data:</p>
-
         <div class="services-list">
             <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer"
                 class="service-tag">Google Play Services</a>
@@ -315,20 +273,16 @@
             <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer"
                 class="service-tag">Firebase Analytics</a>
         </div>
-
         <p><strong>AdMob (Advertising):</strong> We use Google AdMob to display advertisements. AdMob may collect device
             identifiers, IP addresses, and usage data to serve personalized ads. You can opt out of personalized
             advertising by adjusting your device settings (Google Ad Settings on Android).</p>
-
         <p><strong>Firebase Analytics:</strong> We use Firebase Analytics to understand how users interact with our app,
             identify crashes, and improve performance. This service collects anonymous usage statistics and device
             information.</p>
-
         <div class="highlight-box">
             <p><strong>Important:</strong> These third-party services have their own privacy policies. We encourage you
                 to review them using the links above.</p>
         </div>
-
         <h2>How We Use Information</h2>
         <p>The information collected by third-party services is used to:</p>
         <ul>
@@ -338,7 +292,6 @@
             <li>Display relevant advertisements</li>
             <li>Detect and prevent technical issues</li>
         </ul>
-
         <h2>Data Retention</h2>
         <p>Since we do not collect or store your personal documents, there is no data retention on our end. Data
             collected by third-party services (AdMob, Firebase) is retained according to their respective policies,
@@ -347,7 +300,6 @@
             <li>Analytics data: Up to 14 months</li>
             <li>Advertising data: Varies based on user settings and legal requirements</li>
         </ul>
-
         <h2>Your Rights and Choices</h2>
         <p>You have the following rights regarding your information:</p>
         <ul>
@@ -358,32 +310,26 @@
             <li><strong>Delete Data:</strong> Uninstalling the app removes all locally stored data. For third-party
                 data, contact the respective service providers</li>
         </ul>
-
         <h2>Data Security</h2>
         <p>We take the security of your information seriously. All document processing occurs locally on your device
             using industry-standard security practices. However, please remember that no method of electronic storage or
             transmission over the internet is 100% secure.</p>
-
         <h2>Children's Privacy</h2>
         <p>OneDocs does not knowingly collect personal information from children under 13 years of age. If we discover
             that a child under 13 has provided us with personal information, we will immediately delete it. If you are a
             parent or guardian and believe your child has provided us with personal information, please contact us.</p>
-
         <h2>International Data Transfers</h2>
         <p>Your information may be transferred to and processed in countries other than your own. These countries may
             have different data protection laws. By using our Service, you consent to such transfers.</p>
-
         <h2>Changes to This Privacy Policy</h2>
         <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new
             Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy
             Policy periodically for any changes.</p>
-
         <h2>Contact Us</h2>
         <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please
             contact us:</p>
         <p><strong>Email:</strong> help.beyondthelimitstudio@gmail.com</p>
         <p><strong>Developer:</strong> Beyond The Limit Studio</p>
-
         <footer>
             <p><strong>Last Updated:</strong> January 10, 2026</p>
             <p><strong>Effective Date:</strong> January 10, 2026</p>
@@ -394,5 +340,4 @@
         </footer>
     </div>
 </body>
-
 </html>
